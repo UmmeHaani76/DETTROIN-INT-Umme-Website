@@ -1,0 +1,18 @@
+- [x] Upgrade configurations and css utilities
+  - [x] Add `.frosted-glass-premium` class and glow gradients in `src/app/globals.css`
+- [x] Implement `<AnimatedBubbles />` component
+  - [x] Create `src/components/AnimatedBubbles.jsx` with 26 floating bubbles and random parameters
+- [x] Upgrade Page components
+  - [x] `src/components/Navbar.jsx` (frosted-glass-premium, gold brand outline, permanent gradient text & dot highlights, floating glass capsule, bobbing name animation)
+  - [x] `src/components/Hero.jsx` (glowing headline, 3D card tilt, refined cloud buttons, dark sunset cloud divider, highlighted school badge)
+  - [x] `src/components/AcademicTabs.jsx` (upgrade cards to frosted-glass-premium, animations)
+  - [x] `src/components/FeaturesGrid.jsx` (staggered entries, frosted-glass-premium)
+  - [x] `src/components/BentoGrid.jsx` (frosted-glass-premium overlays)
+  - [x] `src/components/Testimonials.jsx` (frosted-glass-premium parent cards)
+  - [x] `src/components/FAQAccordion.jsx` (frosted-glass-premium accordions)
+  - [x] `src/components/InquiryDrawer.jsx` (frosted-glass-premium drawer container)
+  - [x] `src/app/page.js` (replace background with `<AnimatedBubbles />` and set main z-index wrapper)
+  - [x] `src/components/Footer.jsx` (gold brand outline, permanent gradient text & dot highlights in footer logo, bobbing name animation)
+- [x] Build & verification
+  - [x] Run Next.js build check
+  - [x] Verify using browser subagent
